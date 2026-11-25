@@ -1,0 +1,13 @@
+# Exclude raw dataset (exceeds GitHub 100MB limit)
+creditcard.csv
+*.csv
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+.ipynb_checkpoints/
